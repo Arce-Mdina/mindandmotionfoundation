@@ -68,6 +68,13 @@ const Nav: React.FC = () => {
             >
               Contact
             </a>
+            <a
+              href="#donate"
+              onClick={handleScroll('donate')}
+              className="text-gray-300 hover:text-cyan-400 transition-colors"
+            >
+              Donate
+            </a>
           </div>
           {/* Mobile Menu Button */}
           <div className="md:hidden">
@@ -125,6 +132,13 @@ const Nav: React.FC = () => {
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-cyan-400 hover:bg-gray-700 transition-colors"
             >
               Contact
+            </a>
+            <a
+              href="#donate"
+              onClick={handleScroll('donate')}
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-cyan-400 hover:bg-gray-700 transition-colors"
+            >
+              Donate
             </a>
           </div>
         </div>
