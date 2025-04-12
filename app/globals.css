@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Serif+Text:ital@0;1&display=swap');
+
 @import "tailwindcss";
+
+.gradient1 {
+  /* Multiple gradient layers to form a blended, dynamic background */
+  background: 
+    /* Base linear gradient for depth */
+    linear-gradient(135deg, #1A237E, #9E9E9E),
+    /* Radial gradient with electric cyan burst in the top-left */
+    radial-gradient(circle at 20% 30%, rgba(0,229,255,0.6), transparent 50%),
+    /* Radial gradient with warm amber glow at the bottom-right */
+    radial-gradient(circle at 80% 70%, rgba(255,193,7,0.6), transparent 50%),
+    /* Central radial gradient with deep blue focus */
+    radial-gradient(circle at 50% 50%, rgba(26,35,126,0.8), transparent 40%);
+
+  /* Blending the layers to create a cohesive "clot" of gradients */
+  background-blend-mode: overlay, screen, overlay, normal;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 :root {
   --background: #ffffff;
