@@ -1,6 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Serif+Text:ital@0;1&family=Italianno&display=swap');
 
 @import "tailwindcss";
+
+/* .skew {
+  width:20%;
+  height:auto;
+  background-image: linear-gradient(90deg, #8861ff, #00ff72);
+  bottom: -100%;
+  box-shadow: 0 0 15rem #4321ab;
+  left: 50%;
+  position: absolute;
+  right: 50%;
+  top: -100%;
+  transform: rotate(60deg);
+  z-index:-2;
+} */
 
 .cover {
   position: absolute;
@@ -53,4 +67,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x:hidden;
 }

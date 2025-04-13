@@ -31,8 +31,6 @@ const Landing = () => {
     <div className="w-[100vw] h-[100vh] flex justify-center items-center text-center gradient1">
       <div className="cover"></div>
 
-      
-
       {/* Header */}
       <div className="z-50">
         <div className="mb-[20px] flex justify-center items-center gap-[0.5rem] text-white uppercase text-[13px] tracking-wide">
