@@ -1,7 +1,3 @@
-import Image from "next/image";
-
-import { gsap } from "gsap";
-
 import Landing from "@/components/Landing";
 
 import Nav from "@/components/ui/Nav";
