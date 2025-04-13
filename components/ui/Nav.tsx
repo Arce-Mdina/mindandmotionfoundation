@@ -55,11 +55,11 @@ const Nav: React.FC = () => {
               About
             </a>
             <a
-              href="#services"
-              onClick={handleScroll('services')}
+              href="#mission"
+              onClick={handleScroll('mission')}
               className="text-gray-300 hover:text-cyan-400 transition-colors"
             >
-              Services
+              Mission
             </a>
             <a
               href="#contact"
@@ -120,11 +120,11 @@ const Nav: React.FC = () => {
               About
             </a>
             <a
-              href="#services"
-              onClick={handleScroll('services')}
+              href="#mission"
+              onClick={handleScroll('mission')}
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-cyan-400 hover:bg-gray-700 transition-colors"
             >
-              Services
+              Mission
             </a>
             <a
               href="#contact"

@@ -7,6 +7,8 @@ import gsap from 'gsap'
 
 import { ScrollTrigger } from 'gsap/all'
 
+import AboutSection from './ui/AboutSection'
+
 const About = () => {
 
   gsap.registerPlugin(ScrollTrigger);
@@ -20,7 +22,6 @@ const About = () => {
         trigger: '#heading1',
         start: "top 80%",
         toggleActions: "play reverse play reverse",
-        markers: true,
       }
     })
 
@@ -32,7 +33,6 @@ const About = () => {
         trigger: '#text1',
         start: "top 80%",
         toggleActions: "play reverse play reverse",
-        markers: true,
       }
     })
 
@@ -44,7 +44,6 @@ const About = () => {
         trigger: '#heading2',
         start: "top 80%",
         toggleActions: "play reverse play reverse",
-        markers: true,
       }
     })
 
@@ -56,53 +55,38 @@ const About = () => {
         trigger: '#text2',
         start: "top 80%",
         toggleActions: "play reverse play reverse",
-        markers: true,
       }
     })
-  }, [])
-    
-
+  }, []) 
+  
   return (
     <div id="about" className="flex flex-col justify-center items-center margin-[0 auto]">
-      <div className="flex flex-col-reverse sm:grid items-stretch text-center p-[50px] m-[10px] w-[100%] sm:w-[90%] sm:grid-cols-3 md:w-[80%]">
-        <div className="text-center sm:text-left flex flex-col justify-center">
-          <h1 id="heading1" className="font-bold text-7xl font-[Italianno]">Who we are</h1>
-          <div id="text1" className="mt-[20px]">adsfjasdlfja sdfl ja</div>
-        </div>
+      <AboutSection 
+        heading="Who we are"
+        headTag="heading1"
+        text={
+          <div>
+            We are a group of 
+          </div>
+        }
+        textTag='text1'
+        image="/identity.svg"
+        imageSize={150}
+      />
 
-        <div className="hidden sm:flex justify-center">
-          <div className=" flex bg-gray-100 p-[2px] rounded-full h-full"></div>
-        </div>
-        
-        <div className="flex justify-center items-center">
-          <Image 
-            src="/identity.svg"
-            width={250}
-            height={250}
-            alt="who we are"
-            // className="dark:invert"
-          />
-        </div>
-
-        <div className="text-center sm:text-left flex flex-col justify-center">
-          <h1 id="heading2" className="font-bold text-7xl font-[Italianno]">What we do</h1>
-          <div id="text2" className="mt-[20px]">adsfjasdlfja sdfl ja</div>
-        </div>
-
-        <div className="hidden sm:flex justify-center">
-          <div className=" flex bg-gray-100 p-[2px] rounded-full h-full"></div>
-        </div>
-
-        <div className="flex justify-center items-center">
-          <Image 
-            src="/work.svg"
-            width={150}
-            height={150}
-            alt="who we are"
-            className="dark:invert"
-          />
-        </div>
-      </div>
+      <AboutSection 
+        heading="What we do"
+        headTag="heading2"
+        text={
+          <div>
+            We are a group of 
+          </div>
+        }
+        textTag='text2'
+        image="/work.svg"
+        imageSize={150}
+        invert={true}
+      />
     </div>
   )
 }
