@@ -9,6 +9,14 @@ import { FaDiscord, FaArrowDown } from "react-icons/fa";
 
 import { scrollTo } from './utils/scrollTo';
 
+import { Audiowide } from 'next/font/google';
+  
+const audiowide = Audiowide({
+  weight: ['400'],
+  subsets: ['latin'],
+  // display: 'swap',
+});
+
 const Landing = () => {
 
   useEffect(() => {
@@ -25,6 +33,8 @@ const Landing = () => {
   const scrollDown = () => {
     scrollTo("#about", { offset: 60, delay: 0 })
   }
+
+  
   
     
   return (
@@ -45,15 +55,15 @@ const Landing = () => {
         </div>
 
         <div className="w-[99vw] sm:w-[80vw] md:w-[70vw] lg:w-[60vw]">
-          <span className="text-[37px] font-[Audiowide] text-[white]" id="word">Flourishing</span> {" "}
-          <span className="text-[37px] font-[Audiowide] text-[white]" id="word">through</span> {" "}
-          <span className="text-[37px] font-[Audiowide] text-[#00E5FF]" id="word">connection</span> 
-          <span className="text-[37px] font-[Audiowide] text-[white]" id="word">,</span>{" "}
-          <span className="text-[37px] font-[Audiowide] text-[#00E5FF]" id="word">wellness</span> 
-          <span className="text-[37px] font-[Audiowide] text-[white]" id="word">,</span>{" "}
-          <span className="text-[37px] font-[Audiowide] text-[white]" id="word">and</span> {" "}
-          <span className="text-[37px] font-[Audiowide] text-[#00E5FF]" id="word">gaming</span>
-          <span className="text-[37px] font-[Audiowide] text-[white]" id="word">.</span>{" "}
+          <span className={`text-[37px] ${audiowide.className} text-[white]`} id="word">Flourishing</span> {" "}
+          <span className={`text-[37px] ${audiowide.className} text-[white]`} id="word">through</span> {" "}
+          <span className={`text-[37px] ${audiowide.className} text-[#00E5FF]`} id="word">connection</span> 
+          <span className={`text-[37px] ${audiowide.className} text-[white]`} id="word">,</span>{" "}
+          <span className={`text-[37px] ${audiowide.className} text-[#00E5FF]`} id="word">wellness</span> 
+          <span className={`text-[37px] ${audiowide.className} text-[white]`} id="word">,</span>{" "}
+          <span className={`text-[37px] ${audiowide.className} text-[white]`} id="word">and</span> {" "}
+          <span className={`text-[37px] ${audiowide.className} text-[#00E5FF]`} id="word">gaming</span>
+          <span className={`text-[37px] ${audiowide.className} text-[white]`} id="word">.</span>{" "}
         </div>
 
         <div className="mt-[20px] flex flex-row justify-center items-stretch gap-[1rem]">

@@ -1,5 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
+import { Italianno } from 'next/font/google';
+
+const italianno = Italianno({
+  weight: ['400'],
+  subsets: ['latin'],
+  // display: 'swap',
+});
 
 interface AboutSectionProps {
   image: string;
@@ -15,7 +22,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ image, imageSize, heading, 
   return (
     <div className="flex flex-col-reverse sm:grid items-stretch text-center p-[50px] w-[100%] mt-[10px] sm:w-[90%] sm:grid-cols-3 md:w-[80%]">
       <div className="text-center sm:text-left flex flex-col justify-center">
-        <h1 id={headTag} className="mt-[30px] font-bold text-7xl font-[Italianno]">{heading}</h1>
+        <h1 id={headTag} className={`mt-[30px] font-bold text-7xl ${italianno.className}`}>{heading}</h1>
         <div id={textTag} className="mt-[20px]">{text}</div>
       </div>
 
