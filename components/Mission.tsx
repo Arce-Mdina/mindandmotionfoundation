@@ -1,15 +1,9 @@
 import React from 'react'
 
-import { DM_Serif_Text, Roboto } from 'next/font/google'
+import { DM_Serif_Text } from 'next/font/google'
 
 const dmSerifText = DM_Serif_Text({
   weight: ['400'],
-  subsets: ['latin'],
-  // display: 'swap',
-});
-
-const roboto = Roboto({
-  weight: ['500'],
   subsets: ['latin'],
   // display: 'swap',
 });
