@@ -10,7 +10,7 @@ const Nav: React.FC = () => {
   // Scroll to the element with a given id and offset
   const handleScroll = (id: string) => (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
-    const headerOffset = 70; // Change this value to adjust the scroll offset
+    const headerOffset = 50; // Change this value to adjust the scroll offset
     const element = document.getElementById(id);
     if (element) {
       const elementPosition = element.getBoundingClientRect().top;
