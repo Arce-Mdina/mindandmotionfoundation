@@ -54,10 +54,8 @@ const Mission = () => {
         </div>
       </div>
 
-      <div className="p-10"></div>
-
-      <div className="w-full flex justify-center items-center m-[0 auto]">
-        <div className="w-[30%] rounded-lg bg-gray-200 font-bold p-7 text-center">
+      <div className="ctaGradient w-full flex justify-center items-center m-[0 auto]">
+        <div className="gradiengBG w-[100%] sm:w-[70%] md:w-[50%] rounded-lg  font-bold p-7 text-center text-black z-2">
           We hope to help more people every day. If we can help 1 person out of a billion that would
           be awesome. We hope to keep improving oursevels and our community.
 
@@ -67,8 +65,6 @@ const Mission = () => {
           Help us and join the community!
         </div>
       </div>
-
-      <div className="p-30"></div>
     </>
   )
 }
