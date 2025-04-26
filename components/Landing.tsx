@@ -51,7 +51,7 @@ const Landing = () => {
             alt="Logo"
           />
 
-          The Gaming Foundation
+          Mind & Motion Foundation
         </div>
 
         <div className="w-[99vw] sm:w-[80vw] md:w-[70vw] lg:w-[60vw]">

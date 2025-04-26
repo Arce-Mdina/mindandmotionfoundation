@@ -36,7 +36,7 @@ const Mission = () => {
 
           {/* Quotation text */}
           <blockquote className="z-10 max-w-3xl mx-auto text-center text-xl font-serif italic text-gray-800 dark:text-gray-100">
-            With this community we want to bring together gamers to improve mental and physical health. We hope that
+            With this community we want to bring together people to improve mental and physical health. We hope that
             we can help people and inspire people to be better every day. We want to grow a community in which
             people are supportive and can help others.
           </blockquote>

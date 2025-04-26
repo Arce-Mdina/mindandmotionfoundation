@@ -42,7 +42,7 @@ const Nav: React.FC = () => {
               onClick={handleScroll('home')}
               className="text-[20px] font-extrabold text-cyan-400 sm:text-[25px]"
             >
-              The Gaming Foundation
+              Mind & Motion Foundation
             </a>
           </div>
           {/* Desktop Menu */}

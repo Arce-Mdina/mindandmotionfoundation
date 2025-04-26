@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Gaming Foundation",
-  description: "The Gaming Foundation is a discord-based community that advocates for mental health across users, particularly to gamers around the world.",
+  title: "Mind & Motion Foundation",
+  description: "The Mind & Motion Foundation is a discord-based community that advocates for mental & physical health for people worldwide. ",
 };
 
 export default function RootLayout({
