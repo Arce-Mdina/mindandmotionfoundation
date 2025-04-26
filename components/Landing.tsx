@@ -62,7 +62,7 @@ const Landing = () => {
           <span className={`text-[37px] ${audiowide.className} text-[#00E5FF]`} id="word">wellness</span> 
           <span className={`text-[37px] ${audiowide.className} text-[white]`} id="word">,</span>{" "}
           <span className={`text-[37px] ${audiowide.className} text-[white]`} id="word">and</span> {" "}
-          <span className={`text-[37px] ${audiowide.className} text-[#00E5FF]`} id="word">gaming</span>
+          <span className={`text-[37px] ${audiowide.className} text-[#00E5FF]`} id="word">moving</span>
           <span className={`text-[37px] ${audiowide.className} text-[white]`} id="word">.</span>{" "}
         </div>
 
