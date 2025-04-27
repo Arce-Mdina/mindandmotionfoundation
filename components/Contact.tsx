@@ -8,6 +8,7 @@ const Contact = () => {
         <div className="mb-4 md:mb-0 text-center md:text-left">
           <p className="text-sm font-light">&copy; Mind & Motion 2025 - Founded by Mark Wijn. Supported with help from Jonathan</p>
           <p className="text-sm font-light mt-2">Made with ❤️ by William</p>
+          <p className="text-sm font-light mt-2">Helpline (Contact our founder straight): +31 6 14697269</p>
         </div>
         <div className="flex items-center">
           <span className="mr-3 text-sm">Join our Community on Discord</span>
