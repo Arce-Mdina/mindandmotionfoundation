@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import gsap from 'gsap'
 
-import { FaDiscord, FaArrowDown } from "react-icons/fa";
+import { FaDiscord, FaArrowDown, FaReddit } from "react-icons/fa";
 
 import { scrollTo } from './utils/scrollTo';
 
@@ -84,6 +84,9 @@ const Landing = () => {
           </button>
           <a href="https://discord.gg/gVdDE8FQa7" className=" border border-gray-400 rounded-full p-2 cursor-pointer bg-[black] hover:border-white transition duration-[0.3s] text-gray-200 hover:text-white hover:bg-[#5765f2ff]">
             <FaDiscord className="text-[30px]"/>
+          </a>
+          <a href="https://www.reddit.com/r/mindandmotion/s/5UyO8hMuqN" className=" border border-gray-400 rounded-full p-2 cursor-pointer bg-[black] hover:border-white transition duration-[0.3s] text-gray-200 hover:text-white hover:bg-[red]">
+            <FaReddit className="text-[30px]"/>
           </a>
         </div>
       </div>

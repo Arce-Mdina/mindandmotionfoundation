@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaReddit } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -14,6 +14,9 @@ const Contact = () => {
           <span className="mr-3 text-sm">Join our Community on Discord</span>
           <a href="https://discord.gg/gVdDE8FQa7" className="flex items-center hover:text-blue-400 transition transform hover:scale-105">
             <FaDiscord className="w-10 h-10" />
+          </a>
+          <a href="https://www.reddit.com/r/mindandmotion/s/5UyO8hMuqN" className="flex items-center hover:text-blue-400 transition transform hover:scale-105">
+            <FaReddit className="w-10 h-10" />
           </a>
         </div>
       </div>
